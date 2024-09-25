@@ -9,6 +9,8 @@ export const PlanPage = () => {
 
   const { table, side } = USERS.find((user) => user.id === Number(id));
 
+  const direction = side === "left" ? "левая" : "правая";
+
   return (
     <div className="">
       <Link to="/" className="back">
@@ -30,7 +32,9 @@ export const PlanPage = () => {
       </Link>
       <div className="info">
         <div className="page-title">Ваше место:</div>
-        <div className="info__text">стол 5, правая сторона </div>
+        <div className="info__text">
+          стол {table}, {direction} сторона
+        </div>
         <div className="info__additional">
           Определите сторону, ориентируясь по направлению к сцене
         </div>
