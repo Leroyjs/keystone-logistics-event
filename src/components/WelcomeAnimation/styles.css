@@ -1,0 +1,41 @@
+.welcome-animation {
+  background-image: url("../../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+
+  transition: transform 0.5s 2s;
+}
+
+.welcome-animation_hidden {
+  transform: translateY(-100%);
+}
+
+.welcome-animation__title {
+  margin-top: 10px;
+  font-family: "Soyuz", sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.welcome-animation_hidden .welcome-animation__title {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.5s;
+}
+
+.welcome-animation__logo {
+  height: 21px;
+}
