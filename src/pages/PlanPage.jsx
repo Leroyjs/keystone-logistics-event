@@ -8,7 +8,7 @@ export const PlanPage = () => {
   const id = searchParams.get("id");
 
   const { table, side } = USERS.find((user) => user.id === Number(id));
-  console.log(table, side);
+
   return (
     <div className="">
       <Link to="/" className="back">

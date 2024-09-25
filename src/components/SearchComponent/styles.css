@@ -1,5 +1,8 @@
 .search-component {
   margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .search-component__input-wrapper {
@@ -37,6 +40,7 @@
   background-color: #fff;
   border-radius: 4px;
   overflow: auto;
+  max-height: 330px;
 }
 .search-component__info {
   font-size: 16px;
