@@ -4,7 +4,8 @@ import "./styles.css";
 
 export const WelcomeAnimation = () => {
   const [hasAnimationScreen, setAnimationScreen] = useState(
-    () => sessionStorage.getItem("hasAnimation") !== "false"
+    // () => sessionStorage.getItem("hasAnimation") !== "false"
+    true
   );
 
   useEffect(() => {
