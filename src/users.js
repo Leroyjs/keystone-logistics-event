@@ -181,6 +181,7 @@ export const USERS = [
   { name: "Кукленко Инга", table: 12, side: "left", id: 135 },
   { name: "Теплякова Наталия", table: 12, side: "left", id: 136 },
   { name: "Чернова Анастасия", table: 12, side: "left", id: 137 },
+  { name: "Константинова Анастасия", table: 12, side: "left", id: 200 },
 
   // table 12 right side
   { name: "Акчурина Рената", table: 12, side: "right", id: 138 },
@@ -265,7 +266,6 @@ export const USERS = [
   { name: "Кедровский Александр +1", table: 17, side: "right", id: 197 },
   { name: "Шаманов Игорь", table: 17, side: "right", id: 198 },
   { name: "Ясавеева Алина", table: 17, side: "right", id: 199 },
-  { name: "Константинова Анастасия", table: 17, side: "right", id: 200 },
 
   //table 18 left side
   { name: "Жачко Никита", table: 18, side: "left", id: 201 },
@@ -415,7 +415,7 @@ export const USERS = [
   { name: "Анищенко Виктория", table: 27, side: "right", id: 307 },
   { name: "Анищенко Виктория +1", table: 27, side: "right", id: 308 },
   { name: "Елизарова Татьяна", table: 27, side: "right", id: 309 },
-  { name: "Рябинович Виктория", table: 27, side: "right", id: 310 },
+  { name: "Рабинович Виктория", table: 27, side: "right", id: 310 },
   { name: "Середкин Дмитрий", table: 27, side: "right", id: 311 },
   { name: "Середкин Дмитрий +1", table: 27, side: "right", id: 312 },
 
