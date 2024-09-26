@@ -35,9 +35,7 @@ export const PlanPage = () => {
         <div className="info__text">
           стол {table}, {direction} сторона
         </div>
-        <div className="info__additional">
-          Определите сторону, ориентируясь по направлению к сцене
-        </div>
+        <div className="info__additional">Определяйте сторону, стоя лицом к сцене</div>
       </div>
       <Plan table={table} side={side} />
     </div>
